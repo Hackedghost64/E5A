@@ -6,8 +6,8 @@ load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Using gemini-1.5-flash for speed and lower token cost
-model = genai.GenerativeModel('gemini-1.5-flash')
+# Using gemini-3.1-flash for cutting-edge speed and lowest token cost
+model = genai.GenerativeModel('gemini-3.1-flash')
 
 SYSTEM_PROMPT = """
 You are a sales representative for 'Gupta Traders', an agricultural machinery business.

@@ -5,14 +5,14 @@ This project is a fully automated, AI-powered chatbot for **Gupta Traders**. It 
 ## 🚀 Goal
 To create a 100% free, always-on server that:
 1. Receives Instagram Direct Messages.
-2. Uses **Gemini 1.5 Flash** to understand customer needs.
+2. Uses **Gemini 3.1 Flash** to understand customer needs.
 3. Matches needs against an internal SQLite database of machine names.
 4. Generates professional responses (English/Hindi/Hinglish) with machine specs.
 5. Deploys to **Vercel** to avoid server "sleep" issues.
 
 ## 🛠 Tech Stack (100% Free Tier)
 - **Framework**: [FastAPI](https://fastapi.tiangolo.com/) - High performance, asynchronous Python framework.
-- **AI Engine**: [Google Gemini 1.5 Flash](https://aistudio.google.com/) - Latest, fastest model optimized for low token usage.
+- **AI Engine**: [Google Gemini 3.1 Flash](https://aistudio.google.com/) - Latest, fastest model optimized for low token usage.
 - **Database**: **SQLite** - Lightweight, file-based database (stored in `/tmp` for Vercel execution).
 - **Deployment**: [Vercel](https://vercel.com/) - Serverless hosting (no sleep cycles like Render).
 - **Messaging**: [Instagram Graph API](https://developers.facebook.com/docs/instagram-api) - Part of Meta for Business.
