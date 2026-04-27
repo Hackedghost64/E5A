@@ -26,4 +26,4 @@ To get the bot running, we need 3 specific "Keys" from Google and Meta. Please f
 ### What I've done in the codebase:
 - Created `api/index.py` which is ready for **Vercel**.
 - Added this guide for easy reference.
-- Configured the bot to use the latest **Gemini 3.1 Flash** (Free tier).
+- Configured the bot to use the latest **Gemini 2.5 Flash** (Free tier).
