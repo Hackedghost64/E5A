@@ -21,9 +21,20 @@ To get the bot running, we need 3 specific "Keys" from Google and Meta. Please f
 1. This can be any secret password you want (e.g., `GuptaBot2026!`). 
 2. We will enter this into the Vercel settings and the Meta Webhook settings so they can "handshake" securely.
 
+### Step 4: Add Keys to Vercel (Deployment)
+Once the code is linked to Vercel:
+1. Go to the **Vercel Dashboard** and select the project.
+2. Click **Settings** > **Environment Variables**.
+3. Add the following keys with the values you gathered:
+   - `GEMINI_API_KEY`
+   - `META_ACCESS_TOKEN`
+   - `META_VERIFY_TOKEN`
+4. Click **Save** and trigger a **Redeploy**.
+
 ---
 
 ### What I've done in the codebase:
+
 - Created `api/index.py` which is ready for **Vercel**.
 - Added this guide for easy reference.
 - Configured the bot to use the latest **Gemini 2.5 Flash** (Free tier).
